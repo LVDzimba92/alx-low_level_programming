@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
+/**
  * _isupper - uppercase letters
- * @c: charecter to be checked
+ * @c: char to check
  *
  * Return: 0 or 1
  */
