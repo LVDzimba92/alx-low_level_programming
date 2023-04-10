@@ -17,4 +17,5 @@ int main(int argc, char *argv[])
 		/*print all the arguments*/
 		printf("%s\n", argv[j]);
 	}
+	return (0);
 }
