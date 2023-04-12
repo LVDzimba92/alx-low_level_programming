@@ -29,8 +29,8 @@ int check_num(char *str)
  * @argv: Arguments
  * Return: Always 0 (Success)
  */
-	
-	int main(int argc, char *argv[])
+
+int main(int argc, char *argv[])
 {
 	int count;
 	int str_to_int;
@@ -40,11 +40,12 @@ int check_num(char *str)
 
 	while (count < argc)
 	{
-		if (check_num(argv[count]));
+		if (check_num(argv[count]))
 		{
 			str_to_int = atoi(argv[count]);
 			sum += str_to_int;
 		}
+
 		else
 		{
 			printf("Error\n");
